@@ -13,7 +13,7 @@ function App() {
 
     </div>
     <footer>
-        Open source code by <a href="https://github.com/jennie350"target="_blank" rel="noreferrer">Jenny Watts</a>
+        Open source code by <a href="https://github.com/jennie350/dictionary-app-react"target="_blank" rel="noreferrer">Jenny Watts</a>
       </footer>
     </div>
 
