@@ -1,5 +1,6 @@
 
 import './App.css';
+import DictionarySearch from './DictionarySearch';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src="https://img.freepik.com/premium-vector/cute-bear-wall-cartoon_42750-669.jpg?w=1060" className="App-logo" alt="logo" />
       </header>
-
+<DictionarySearch />
       <footer>
         Open source code by <a href="https://github.com/jennie350"target="_blank" rel="noreferrer">Jenny Watts</a>
       </footer>
