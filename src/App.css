@@ -6,11 +6,13 @@
 }
 
 .Container {
-margin-bottom: 50px;
+margin: auto;
+max-width: 600px;
+
 }
 
 footer {
   text-align: center;
   font-size: 12px;
-
+margin-top: 30px;
 }
