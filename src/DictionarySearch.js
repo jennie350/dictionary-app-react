@@ -1,12 +1,14 @@
 import React, {useState } from "react";
 import axios from "axios";
+import SearchResults from "./SearchResults";
 import "./DictionarySearch.css"
 
 export default function DictionarySearch() {
 let [searchTerm, setSearchTerm] = useState(null);
+let [result, Setresult] = useState(null);
 
 function handleResponse(response){
-    console.log(response.data[0])
+    Setresult(response.data[0])
 }
 
 function search(event){
@@ -24,6 +26,7 @@ function handleWordChange(event) {
             <form onSubmit={search}>
                 <input type="search" onChange={handleWordChange} placeholder="Type a word to start 🔎"/>
             </form>
+            <SearchResults info={result}/>
         </div>
     )
 }
