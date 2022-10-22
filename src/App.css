@@ -1,15 +1,17 @@
+
+
+.Container {
+  margin: 0 auto;
+  max-width: 768px;
+color: #424242;
+}
+
 .App-logo {
   display: block;
   max-width: 225px;
   margin: auto;
-
 }
 
-.Container {
-margin: auto;
-width: 768px;
-color: #424242;
-}
 
 header {
   padding-bottom: 30px;
