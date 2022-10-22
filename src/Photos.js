@@ -11,7 +11,7 @@ export default function Photos(props) {
                 {props.photos.map(function(photo, index) {
                 return (
 
-                    <div className="col-4">
+                    <div className="col-md-4 col-sm-6">
             <img src={photo.src.landscape} key={index} alt={photo.alt} className="img-fluid"/>
             </div> ) })}
             </div>
