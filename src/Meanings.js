@@ -12,7 +12,7 @@ export default function Meanings(props) {
             <em>
           {props.info.definitions[0].example}
             </em>
-<Synonyms data={props.info}/>
+<Synonyms synonyms={props.info.synonyms}/>
         </div>
     )
 }
