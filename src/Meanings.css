@@ -1,0 +1,12 @@
+h3 {
+    text-transform: capitalize;
+}
+
+em {
+    font-weight: 200;
+
+}
+
+p {
+    margin-bottom: 5px;
+}

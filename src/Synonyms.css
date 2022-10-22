@@ -1,0 +1,19 @@
+
+
+ul, li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #F68D8C;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-right: 8px;
+}

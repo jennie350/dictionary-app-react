@@ -1,0 +1,13 @@
+.searchResults a {
+    color:#F68D8C;
+    font-weight: bold;
+  }
+
+  .searchResults  a:hover{
+    color:goldenrod;
+    text-decoration: none;
+  }
+
+  h2 {
+    text-transform: capitalize;
+  }

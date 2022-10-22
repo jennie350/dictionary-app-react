@@ -1,6 +1,22 @@
+.suggestion {
+    text-align: center;
+    font-size: 11px;
+    margin: 0, auto;
+
+}
+
+section {
+    background: rgb(253, 166, 152, 0.15);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    margin: 25px 0px;
+}
+
 form {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;;
+
 }
 
 input {
@@ -10,3 +26,4 @@ input {
 h2{
     text-align: center;
 }
+

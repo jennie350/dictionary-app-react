@@ -26,6 +26,7 @@ function handleWordChange(event) {
             <form onSubmit={search}>
                 <input type="search" onChange={handleWordChange} placeholder="Type a word to start 🔎"/>
             </form>
+           <div className="suggestion">Suggestions: marmalade, radio, snuggle...</div>
             <SearchResults info={result}/>
         </div>
     )
