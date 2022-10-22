@@ -7,12 +7,9 @@
 
 .Container {
 margin: auto;
-max-width: 750px;;
+width: 768px;
 color: #424242;
-
 }
-
-
 
 header {
   padding-bottom: 30px;
