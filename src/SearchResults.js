@@ -1,6 +1,7 @@
 import React from "react";
 import Meanings from "./Meanings";
 import "./SearchResults.css";
+import Phonetics from "./Phonetics";
 
 
 export default function SearchResults(props) {
@@ -10,9 +11,8 @@ export default function SearchResults(props) {
         <div className="searchResults">
             <section>
             <h2>{props.info.word}</h2>
+<Phonetics phonetics={props.info.phonetics}/>
 
-        <div className="phonetics-audio"><a href={props.info.phonetics[0].audio} target="_blank" rel="noreferrer">Pronounciation</a></div>
-        <div className="phonetics-text">{props.info.phonetics[0].text}</div>
         </section>
 
 
